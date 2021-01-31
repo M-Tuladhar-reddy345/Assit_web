@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #363940;
+	font-family: montserrat;
+	color: #ffffff;
+    width:100%;
+    margin:0px;
+    overflow:auto;
+}
+/*.bgimg{
+  max-width: 100%;
+  height: 600px;
+} */
+nav {
+  height: 10vh;
+  width: 100%;
+  background: #2f3136;
+  /*background: #415DF8;*/ /*#2f3136;*//* i think this suites #3b4061 */
+}
+nav ul {
+  float: right;
+  list-style-type: none;
+  margin-right: 25px;
+  padding: 0px;
+  overflow: hidden;
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 47px;
+  margin: 0px 5px;
+  color: white;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+  float: right;
+  color: white;
+}
+.mic{
+	display: flex;
+	flex-position: column;
+	position: fixed;
+	width: auto;
+	height: auto;
+	top: 35%;
+	left: 20%;
+}
+.fontt{
+	display: flex;
+	flex-position: column;
+	position: fixed;
+	width: auto;
+	height: auto;
+	top: 37%;
+	left: 65%;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #363940;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.inPopmic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.inPoptext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.closee {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closee:hover,
+.closee:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  width: 250;
+  height:300;
+}
+.none{
+  display: none;
+}
+
+.voice-commands{
+	display: relative;
+	flex-position: column;
+	position: fixed;
+	width: 600px;
+	height: auto;
+	top: 60%;
+	left: 17%;
+	color:#363940;
+	padding:40px;
+    background:white;
+    border-radius:20px;
+}
+.text-commands{
+	background:white;
+	display: relative;
+	flex-position: column;
+	position: fixed;
+	width: 600px;
+	height: auto;
+	top: 60%;
+	left: 57%;
+	color:#363940;
+	padding:40px;
+	border-radius:20px;
+}
+
+#about {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+#about .section-intro {
+	margin-bottom: 3rem;
+
+	margin-left: 3rem;
+
+}
+
+.intro-info {
+	position: relative;
+
+	margin-top: 1.5rem;
+	margin-right: -30px;
+	margin-left: -55px;
+}
+.intro-info .lead {
+	text-align: left;
+	padding-left: 6rem;
+
+	margin-top: 3.8rem;
+	margin-right: -30px;
+	margin-left: -25px;
+}
+.intro-info .lead {
+	text-align: left;
+	padding-left: 8rem;
+}

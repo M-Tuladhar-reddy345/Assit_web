@@ -1,0 +1,9 @@
+Flask
+requests
+BeautifulSoup4
+youtube3
+datetime
+pywhatkit
+pyjokes
+PyDictionary
+gunicorn
