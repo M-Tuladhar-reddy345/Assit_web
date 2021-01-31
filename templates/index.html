@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{url_for('static', filename = 'externalcss.css')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename = 'externalcss2.css')}}" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Home</title>
 </head>
@@ -37,10 +37,9 @@
       </form>
     </div>
 	</div>
-
   <img type="image" name="mic" class="mic" id="mike" src="{{url_for('static', filename = 'mic.png')}}" height="300" width="250" >
   <img src="{{url_for('static', filename = 'fontT.png')}}" height="300" width="250" class="fontt" id="texty">
-  <h1 class="none" >{{message}}</h1>
+
   <script src = "{{url_for('static', filename = 'app2.js')}}"></script>
   <div class = "commands">
     <div class = "voice-commands">
@@ -56,15 +55,15 @@
       <h2>9.stack [error]</h2>
       <h2>10.amazon find [any product]</h2>
       <h2>11.flipkart find [any product]</h2>
-    </div>
-    <div class="text-commands">
+      <br>
       <h1>Text-commands</h1>
       <h2>1.Youtube [name of the video]</h2>
       <h2>2.search [search in google]</h2>
       <h2>3.stack [error]</h2>
       <h2>4.amazon find [any product]</h2>
       <h2>5.flipkart find [any product]</h2>
-    <div >
+      </div>
+
   </div>
 
 </body>

@@ -5,8 +5,8 @@
 }
 body{
     background: #363940;
-	font-family: montserrat;
-	color: #ffffff;
+    font-family: montserrat;
+    color: #ffffff;
     width:100%;
     margin:0px;
     overflow:auto;
@@ -45,22 +45,24 @@ ul a {
   color: white;
 }
 .mic{
-	display: flex;
+	/* display: flex; */
 	flex-position: column;
-	position: fixed;
-	width: auto;
+	/* position: fixed; */
+	/* width: auto; */
 	height: auto;
-	top: 35%;
-	left: 20%;
+	/* top: 10%; */
+	/* left: 20%; */
+	margin-left:300px;
 }
 .fontt{
-	display: flex;
+	/* display: flex; */
 	flex-position: column;
-	position: fixed;
-	width: auto;
+	/* position: fixed; */
+	/* width: auto; */
 	height: auto;
-	top: 37%;
-	left: 65%;
+	/* top: 10%; */
+	/* left: 65%; */
+	margin-left:200px;
 }
 
 .modal {
@@ -143,30 +145,15 @@ button, input[type="submit"], input[type="reset"] {
 }
 
 .voice-commands{
-	display: relative;
-	flex-position: column;
-	position: fixed;
+	margin-top:30px;
 	width: 600px;
 	height: auto;
-	top: 60%;
-	left: 17%;
 	color:#363940;
 	padding:40px;
-    background:white;
-    border-radius:20px;
-}
-.text-commands{
 	background:white;
-	display: relative;
-	flex-position: column;
-	position: fixed;
-	width: 600px;
-	height: auto;
-	top: 60%;
-	left: 57%;
-	color:#363940;
-	padding:40px;
 	border-radius:20px;
+	margin-left:26%;
+	margin-right:30%;
 }
 
 #about {
